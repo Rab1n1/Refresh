@@ -1,7 +1,11 @@
-body {
-
+#openBox {
+  text-align: center;
 }
 
-#openBox {
-  
+#navbarNav {
+  padding-left: 25px;
+}
+
+.text-on-black {
+  color: white;
 }
