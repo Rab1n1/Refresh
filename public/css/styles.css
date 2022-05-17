@@ -8,4 +8,21 @@
 
 .text-on-black {
   color: white;
+  padding-left: 10px;
+}
+
+.card {
+  display: inline-table;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.image {
+  max-width: 15%;
+  width: auto;
+  border-radius: 5%;
+}
+
+.content {
+  flex: 1 1 200px;
 }

@@ -3,12 +3,10 @@ const app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-app.get("/", function(req, res)
-{
+app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000, function()
-{
+app.listen(3000, function() {
   console.log("you are running port 3000");
 });
