@@ -1,5 +1,50 @@
+/*main colors :
+  black: #0001
+  orange: orange
+*/
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.black-colored {
+  background-color: #545454;
+  color: orange;
+}
+
+.orange-colored {
+  background-color: orange;
+  color: #545454;
+}
+
+.color-check {
+  background-color: #F5F5F5;
+}
+
 #openBox {
   text-align: center;
+  padding-bottom: 10px;
+  border-radius: 0;
+}
+
+.box-img {
+  display: inline-block;
+}
+
+.box-txt {
+  display: inline-block;
+}
+
+.small-boxes {
+  margin-left: 1px;
+  margin-right: 1px;
+  display: inline-block;
+  text-align: left;
+  background-color: #FFFFF;
+}
+
+.card{
+  border: 0;
 }
 
 #navbarNav {
@@ -18,8 +63,7 @@
 }
 
 .image {
-  max-width: 15%;
-  width: auto;
+  max-width: 35%;
   border-radius: 5%;
 }
 
